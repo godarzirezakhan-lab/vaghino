@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin:0; background:#fbf8f2; color:#211e36; font-family:'Vazirmatn',Tahoma,sans-serif; }
+a { text-decoration:none; }
+button,input,textarea,select { font:inherit; }
+::selection { background:#ded5ff; }
+.container-app { width:min(1160px, calc(100% - 32px)); margin-inline:auto; }
+.glass { background:rgba(255,255,255,.76); backdrop-filter:blur(16px); border:1px solid rgba(255,255,255,.75); }
+.book-cover { background:linear-gradient(145deg,#30235f,#8e6be9 55%,#f0c984); }
